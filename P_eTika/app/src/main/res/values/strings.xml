@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">P_eTika</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--<string name="google_browser_key">AIzaSyCT5Eza7etWN5HzTSWFE2rX8UtC2CW5Qh0</string>-->
+    <string name="google_browser_key">AIzaSyD9B1xMj9btX9B7V2KD8JtACXlG7xJVy1Q</string>
+    <string name="title_activity_atrialnother">atrialnother</string>
+    <string name="Search">Search</string>
+    <string-array name="array_diseases">
+        <item>Bone Fracture</item>
+        <item>Unconscious</item>
+        <item>Hospital Transfer</item>
+        <item>Breathing Problems</item>
+        <item>Asthma</item>
+        <item>Pregnancy</item>
+        <item>Profuse Bleeding</item>
+        <item>Cardiac/Heart Problems</item>
+        <item>Other Disease</item>
+        <item>Other Disease</item>
+        <item>Other Disease</item>
+    </string-array>
+    <string-array name="place_type">
+        <item>hospital</item>
+    </string-array>
+    <string-array name="place_type_name">
+        <item>Hospital</item>
+    </string-array>
+
+</resources>

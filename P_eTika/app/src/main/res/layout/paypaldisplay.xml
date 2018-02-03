@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/paypallogo"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/paypallogo"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/paypalamount"
+        android:layout_below="@+id/cardholdername"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="number"
+        android:hint="Payment Amount"
+        android:textColor="#13595e"
+        android:textColorHint="#13595e" />
+
+    <EditText
+        android:id="@+id/cardholdername"
+        android:layout_below="@+id/paypallogo"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="textPersonName"
+        android:hint="Your name"
+        android:textColor="#13595e"
+        android:textColorHint="#13595e" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/date"-->
+        <!--android:layout_width="170dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/paypalpay"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:hint="MM/YY"-->
+        <!--android:inputType="date"-->
+        <!--android:padding="20dp"-->
+        <!--android:textColor="#13595e"-->
+        <!--android:textColorHint="#13595e" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/cvc"-->
+        <!--android:layout_below="@+id/paypalnumber"-->
+        <!--android:layout_toRightOf="@+id/date"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="20dp"-->
+        <!--android:inputType="number"-->
+        <!--android:hint="CVC"-->
+        <!--android:textColor="#13595e"-->
+        <!--android:textColorHint="#13595e" />-->
+
+    <Button
+        android:id="@+id/paypalpay"
+        android:layout_below="@+id/paypalamount"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#13595e"
+        android:text="pay"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

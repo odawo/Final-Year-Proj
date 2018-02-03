@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLinearLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_margin="30dp">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ic_logo"
+        android:layout_gravity="center|top"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#13595e"
+        android:textColorHint= "#13595e"/>
+
+    <EditText
+        android:id="@+id/passwordtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#13595e"
+        android:textColorHint="#13595e" />
+
+    <Button
+        android:id="@+id/tomain_next"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="CONTINUE"
+        android:background="#13595e"/>
+
+
+
+    <!--android:background="@drawable/ic_forward_black_24dp"-->
+</LinearLayout>

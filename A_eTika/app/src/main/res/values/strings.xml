@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">A_eTika</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="google_direction_api">AIzaSyD9B1xMj9btX9B7V2KD8JtACXlG7xJVy1Q</string>
+    <!--<string name="google_direction_api">AIzaSyCnMaDj9JKjl9e3fkVu5zyBATllOCDnLpk</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_trips">action_trips</string>
+    <string name="action_profile">action_profile</string>
+    <string name="action_logout">action_logout</string>
+    <string name="title_activity_ambulance_tracker">Map</string>
+    <string name="find_patient">find patient</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

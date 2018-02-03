@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.vanessa.a_etika.SignIn">
+
+    <ImageView
+        android:id="@+id/etikalogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/etikalogo"
+        android:elevation="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/etikalogoname"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Driver App"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/common_google_signin_btn_text_light_default"-->
+        <!--android:textSize="30dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@+id/etikalogo"/>-->
+
+    <LinearLayout
+        android:id="@+id/inputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+        <EditText
+            android:id="@+id/emailtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled" />
+
+        <EditText
+            android:id="@+id/passwordtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/common_google_signin_btn_text_light_disabled" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#13595e"
+            android:text="log in"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/textviewForgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_default"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_pressed" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

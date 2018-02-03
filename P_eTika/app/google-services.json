@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "730138846276",
+    "firebase_url": "https://finalapp-8b7ab.firebaseio.com",
+    "project_id": "finalapp-8b7ab",
+    "storage_bucket": "finalapp-8b7ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730138846276:android:c3c344a288323e30",
+        "android_client_info": {
+          "package_name": "com.example.vanessa.p_etika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730138846276-ar2lk3uf50qlv1a723b4a19eqaahopm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vanessa.p_etika",
+            "certificate_hash": "aff516046a409e5965818e3a677eadb1cbe31d8d"
+          }
+        },
+        {
+          "client_id": "730138846276-hldfg4co6ud9tb7nhukouh1em970733f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP5zL2i64FuqAW78UzLngvBVLKmD7X8mM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730138846276-hldfg4co6ud9tb7nhukouh1em970733f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

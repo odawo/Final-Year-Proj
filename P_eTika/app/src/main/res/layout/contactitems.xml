@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ListView-->
+        <!--android:id="@+id/list"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"/>-->
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Emergency Number"
+        android:textColor="#13595e"
+        android:textColorHint="#13595e"
+        android:id="@+id/contactid"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Contact"
+        android:background="#13595e"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="250dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Emergency Message"
+        android:textColor="#13595e"
+        android:textColorHint="#13595e"
+        android:id="@+id/messageid"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Set SMS"
+        android:background="#13595e"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#13595e"
+        android:text="Contact Number : "
+        android:id="@+id/textview1"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:id="@+id/textview"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textview1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#13595e"
+        android:text="Message"
+        android:id="@+id/textview2"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text=""
+        android:id="@+id/textview3"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textview2"/>
+
+
+</RelativeLayout>

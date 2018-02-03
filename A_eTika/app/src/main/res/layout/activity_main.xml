@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:layout_margin="10dp"
+    tools:context="com.example.vanessa.a_etika.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/etikalogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/etikalogo"
+            android:elevation="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/etikalogoname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver App"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light_default"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/etikalogo"/>
+
+        <Button
+            android:id="@+id/RegisterPage"
+            android:layout_width="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:background="#13595e"
+            android:text="register"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/LogIn"
+            android:layout_width="140dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:background="#13595e"
+            android:text="login"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/linktopatientapp"
+            android:layout_below="@+id/RegisterPage"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="searching for patient app?"
+            android:textSize="15sp"
+            android:textColor="#13595e"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
